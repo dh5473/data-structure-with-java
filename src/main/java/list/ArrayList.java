@@ -64,20 +64,4 @@ public class ArrayList<E> implements List<E> {
     public int length() {
         return listSize;
     }
-
-    //Run | Debug
-    public static void main(String[] args){
-
-        ArrayList<Integer> mylist = new ArrayList<>();
-        mylist.append(3);
-        System.out.println(Arrays.toString(mylist.data));
-        mylist.append(5);
-        System.out.println(Arrays.toString(mylist.data));
-        mylist.insert(0, 10);
-        System.out.println(Arrays.toString(mylist.data));
-        mylist.remove(2);
-        System.out.println(Arrays.toString(mylist.data));
-
-        System.out.println(mylist.length());
-    }
 }
